@@ -347,7 +347,6 @@ line-height:30px;
 }
 
 #games h4{
-    padding:10px 125px;
     font-size:20px;
     line-height:30px;
 }
@@ -495,7 +494,7 @@ padding:180px 0;
 
 
 .heading{
-margin:0 ;
+margin:0 auto;
 padding-bottom:30px;
 color:#fff;
 }
@@ -513,8 +512,7 @@ color:#cfd5f7;
 }
 
 .connect-content p{
-    
-   padding:45px 80px 95px;
+    padding-bottom: 9%;
    color:#cfd5f7;
    font-size:28px;
 }
@@ -636,7 +634,7 @@ color:rgba(239, 239, 243, 0.83);
 }
 
 #teams h4{
-    padding:10px 125px;
+    padding:20px;
     font-size:20px;
     line-height:30px;
 }
@@ -703,7 +701,7 @@ color:rgba(239, 239, 243, 0.83);
 /* Responsive design for image heights */
 @media (max-width: 664px) { 
     #teams .card-img-top {
-      height: 65vw;
+      height: 85vw;
     }
   }
 
