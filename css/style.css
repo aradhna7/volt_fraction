@@ -701,7 +701,7 @@ color:rgba(239, 239, 243, 0.83);
 /* Responsive design for image heights */
 @media (max-width: 664px) { 
     #teams .card-img-top {
-      height: 85vw;
+      height: 95vw;
     }
   }
 
