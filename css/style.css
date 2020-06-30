@@ -320,7 +320,7 @@ line-height:30px;
 /* games section */
 .games{
     background-color: black;
-    padding:210px 0;
+    padding:150px 0 180px 0;
     font-family: "Abel-Regular";
     color: white;
 }
@@ -334,6 +334,24 @@ line-height:30px;
 #games h1{
     font-size: 21px;
 }
+
+#games h3{
+    padding:15px 0;
+    font-size:38px;
+    font-family: "Abel-Regular";
+    font-weight:800;
+}
+    
+#games span{
+    color:red;
+}
+
+#games h4{
+    padding:10px 125px;
+    font-size:20px;
+    line-height:30px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -382,7 +400,7 @@ line-height:30px;
 
 
 
-
+/* games ends */
 
 
 
@@ -475,9 +493,10 @@ font-family: "Abel-Regular";
 padding:180px 0;
 }
 
+
 .heading{
-margin:0 auto;
-padding-bottom:50px;
+margin:0 ;
+padding-bottom:30px;
 color:#fff;
 }
 
@@ -574,6 +593,151 @@ font-size:16px;
 color:rgba(239, 239, 243, 0.83);
 }
 /* ---------connect Ends here ---------- */
+
+
+
+
+
+
+
+
+
+
+/* ---------------teams starts here------- */
+
+.teams{
+    background-color: black;
+    padding:50px 0 100px 0;
+    font-family: "Abel-Regular";
+    color: white;
+}
+
+#teams h2{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 1800;
+}
+
+#teams h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding:5px 0 20px 0;
+}
+
+#teams h3{
+    padding:10px 0;
+    font-size:38px;
+    font-family: "Abel-Regular";
+    font-weight:800;
+}
+    
+#teams span{
+    color:red;
+}
+
+#teams h4{
+    padding:10px 125px;
+    font-size:20px;
+    line-height:30px;
+}
+
+#teams p{
+    font-size:20px;
+    line-height:30px;
+    padding-bottom: 10px;
+}
+
+#teams button{
+    color: white;
+    background-color: #490d49;
+    box-shadow: cornflowerblue;
+    border-color: white;
+
+} 
+
+#teams button:hover{
+    color: #490d49;
+    background-color: white;
+    box-shadow: cornflowerblue;
+    border-color: #490d49;
+    
+} 
+
+
+#teams .card-body{
+    word-wrap: break-word;
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    padding: 5%;
+    color: white;
+}
+
+
+/* Prevent image stretching is it's resized */
+#teams .card-img-top {
+    opacity: 0.3;
+    object-fit: cover;
+}
+
+/* Make all cards in row the same height */
+#teams .row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#teams .row > div[class*='col-'] {
+  display: flex;
+}
+
+/* Hover effects */
+#teams .card {
+    max-width: 100%;
+  background-color: #490d49;
+  transition: -webkit-transform 0.3s ease;
+}
+#teams .card:hover {
+  transform: scale(1.01, 1.01);
+}
+
+/* Responsive design for image heights */
+@media (max-width: 664px) { 
+    #teams .card-img-top {
+      height: 65vw;
+    }
+  }
+
+@media (min-width: 576px) { 
+  #teams .card-img-top {
+    height: 43vw;
+  }
+}
+
+@media (min-width: 931px) { 
+  #teams .card-img-top {
+    height: 32vw;
+  }
+}
+
+@media (min-width: 1070px) { 
+  #teams .card-img-top {
+    height: 27vw;
+  }
+}
+
+@media (min-width: 1330px) { 
+  #teams .card-img-top {
+    height: 17vw;
+  }
+}
+
+
+
+
+
+
+
+
 
 /* ---------- UP Coming Games Starts Here ---------- */
 .background {
