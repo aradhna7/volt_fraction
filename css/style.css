@@ -866,7 +866,8 @@ nav li a {
 
 
 #carouselExampleIndicators .banner-content {
-    width: 95%;
+  padding-top: 3%;
+    width: 100%;
 }
 
 #carouselExampleIndicators .banner-content h1{
@@ -912,6 +913,11 @@ nav li a {
     border-color: #490d49;
     
 } 
+
+@media screen and (max-width: 667px){
+.banner-content {
+    padding-top: 12px;
+}}
 
 
 
