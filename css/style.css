@@ -82,7 +82,7 @@ font-family: "Abel-Regular";
 }
 
 nav {
-    height: 50px;
+    height: 55px;
 }
 
 .fixed-top{
@@ -111,6 +111,15 @@ nav li a {
     
 }
 
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  margin-bottom: -40px;
+}
 
 .navbar-light .navbar-nav , .navbar-light .navbar-na, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: white;
@@ -124,6 +133,10 @@ nav li a {
     padding: 6px;
 }
 
+.mr-auto.mx-auto {
+  margin-left: unset!important;
+}
+
 
 .navbar-brand {
     display: inline-block;
@@ -131,23 +144,18 @@ nav li a {
     padding-bottom: .3125rem;
     margin-left: -2%;
     margin-right: 4%;
+    margin-top: -4%;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    max-width: 60%;
+    max-width: 34%;
 }
 
 .navbar-brand img {
-    width: 60%;
-    height: 120%;
-    max-width: 70%;
+  width: 21%;
+  height: 299%;
 }
 
-@media (max-width: 800px){
-.navbar-brand img {
-    width: 60%;
-    height: 120%;
-}}
 
 @media (max-width: 765px){
 .navbar-collapse{
@@ -194,6 +202,13 @@ nav li a {
     width: 100%!important;
     margin: 20px;
 }
+
+@media (max-width: 765px){
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 10%;
+}}
 
 
 
@@ -866,7 +881,7 @@ nav li a {
 
 
 #carouselExampleIndicators .banner-content {
-  padding-top: 3%;
+  padding-top: 7%;
     width: 100%;
 }
 
