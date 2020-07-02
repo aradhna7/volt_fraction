@@ -904,15 +904,15 @@ nav li a {
     font-size:30px;
     font-weight: 600;
     padding-bottom: 20px;
-    color: yellow;
+    color: #e14594;
     padding-top: 10px;
 }
 
 
 #carouselExampleIndicators .banner-content h3{
-    font-size:18px;
-    color: yellow;
-    font-weight: 600;
+    font-size:20px;
+    color: #e14594;
+    font-weight: 700;
 }
 
 #carouselExampleIndicators .banner-content p{
@@ -923,17 +923,17 @@ nav li a {
 } 
 
 #carouselExampleIndicators .banner-content button{
+  font-weight: 600;
+    font-size: 25px;
     color: white;
-    background-color: #490d49;
+    background-color: #e14594;
     box-shadow: cornflowerblue;
 
 } 
 
 #carouselExampleIndicators .banner-content button:hover{
-    color: #490d49;
-    background-color: white;
-    box-shadow: cornflowerblue;
-    border-color: #490d49;
+    color: white;
+    background-color: black;
     
 } 
 
@@ -976,7 +976,7 @@ nav li a {
 /* games section */
 .games{
     background-color: black;
-    padding:210px 0;
+    padding:100px 0;
     /* font-family: "Abel-Regular"; */
     color: white;
 }
@@ -1146,12 +1146,13 @@ left: auto;
 /* ---------- connect Starts ---------- */
 .connect{
 background:url("../images/require.jpg" ) 0px 0px no-repeat;
+
 width:100%;
 background-size:cover;
 }
 
 .all-require{
-padding:180px 0;
+padding:160px 0;
 }
 
 
@@ -1267,7 +1268,7 @@ color:rgba(239, 239, 243, 0.83);
 .teams{
     background-color: black;
     font-family: "Abel-Regular";
-    padding:110px 0;
+    padding:80px 0;
     color: white;
 }
 
