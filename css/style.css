@@ -160,7 +160,10 @@ nav li a {
 @media (max-width: 765px){
 .navbar-collapse{
     background-color: black;
-}}
+}
+
+
+}
 
 @media screen and (max-width: 1005px) and (min-width: 769px) {
     .social-buttons{
@@ -207,7 +210,12 @@ nav li a {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 10%;
+  margin-top: 12%;
+}}
+
+@media (max-width: 765px){
+.fixed-top {
+  margin-top: -5%;
 }}
 
 
