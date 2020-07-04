@@ -98,7 +98,7 @@ font-family: "Abel-Regular";
 
 
 .fixed-top{ 
-  top: 0;
+  top: -1%;
 }
 
 /* @media (max-width: 765px){
@@ -155,10 +155,11 @@ nav li a {
 
 
 .navbar-brand {
+  height: 83px;
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-left: -1%;
+    margin-left: -2%;
     margin-right: 4%;
     margin-top: -3%;
     font-size: 12px;
@@ -1038,7 +1039,7 @@ nav li a {
 
 /* games section */
 .games{
-    background-color: transparent;
+    background-color: black;
     padding:80px 0;
     /* font-family: "Abel-Regular"; */
     color: white;
