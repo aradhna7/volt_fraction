@@ -920,7 +920,7 @@ nav li a {
     -webkit-align-items: center;
     align-items: center;
     height: 100%;
-    top: 1%;
+    top: 4%;
     bottom: 39%;
     left: 2%;
     right: 3%;
@@ -933,11 +933,23 @@ nav li a {
     text-shadow: 0 1px 2px rgba(0,0,0,.6); */
 }
 
-/* @media screen and (min-width: 1543px){
-#carouselExampleIndicators .banner-content {
-    padding-top: 10%;
-}} */
+@media screen and (max-width: 360px){
+#carouselExampleIndicators .carousel-content {
+    top: 6%;
+}}
 
+.carousel-indicators > li {
+  
+  border: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+  padding-left: 10%;
+    padding-bottom: 2%;
+}
 
 #carouselExampleIndicators .banner-content {
   padding-top: 7%;
@@ -951,6 +963,15 @@ nav li a {
     padding-top: 20px;
 }
 
+@media (max-width: 360px) {
+  #carouselExampleIndicators .banner-content h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:40px;
+    font-weight: 600;
+}
+}
+
 #carouselExampleIndicators .banner-content h2{
     font-size:30px;
     font-weight: 600;
@@ -959,19 +980,44 @@ nav li a {
     padding-top: 10px;
 }
 
+@media (max-width: 360px) {
+  #carouselExampleIndicators .banner-content h2{
+    font-size:20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+}
+
 
 #carouselExampleIndicators .banner-content h3{
-    font-size:20px;
+    font-size:30px;
     color: #e14594;
     font-weight: 700;
 }
 
+@media (max-width: 360px) {
+  #carouselExampleIndicators .banner-content h3{
+    font-size:20px;
+    font-weight: 600;
+}
+}
+
 #carouselExampleIndicators .banner-content p{
     font-size:23px;
-    padding-top:15px;
+    padding-top:10px;
     line-height:25px;
     padding-bottom:25px;
 } 
+
+@media (max-width: 360px) {
+  #carouselExampleIndicators .banner-content p{
+    font-size:19px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+}
 
 #carouselExampleIndicators .banner-content button{
   font-weight: 600;
@@ -981,6 +1027,11 @@ nav li a {
     box-shadow: cornflowerblue;
 
 } 
+@media (max-width: 360px) {
+  #carouselExampleIndicators .banner-content button{
+    font-size: 17px;
+}
+}
 
 #carouselExampleIndicators .banner-content button:hover{
     color: white;
@@ -1464,6 +1515,12 @@ color:rgba(239, 239, 243, 0.83);
 @media (min-width: 1330px) { 
   #teams .card-img-top {
     height: 17vw;
+  }
+}
+
+@media (max-width: 350px) { 
+  #teams .card-img-top {
+    height: 115vw;
   }
 }
 
