@@ -40,13 +40,13 @@ src:url(../fonts/BlackOpsOne-Regular.ttf);
 
 
 body{
+  background-color: #252525;
 padding: 0%;
 width:100%;
 text-align:center;
 font-family: "Abel-Regular";
 /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
-
 
 
 #home{
@@ -1100,6 +1100,8 @@ nav li a {
 
 /* games section */
 .games{
+  margin-top: .25rem!important;
+  margin-bottom: .25rem!important;
     background-color: black;
     padding:80px 0;
     /* font-family: "Abel-Regular"; */
@@ -1283,6 +1285,7 @@ left: auto;
 
 /* ---------- connect Starts ---------- */
 .connect{
+  margin-top: .25rem!important;
 background:url("https://thumbs.gfycat.com/DeadEnormousBongo-size_restricted.gif" ) 0px 0px no-repeat;
 
 width:100%;
@@ -1404,6 +1407,7 @@ color:rgba(239, 239, 243, 0.83);
 /* ---------------teams starts here------- */
 
 .teams{
+  margin-top: .25rem!important;
     background-color: black;
     font-family: "Abel-Regular";
     padding:80px 0;
