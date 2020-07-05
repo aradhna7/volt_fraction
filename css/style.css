@@ -168,6 +168,16 @@ nav li a {
     
 }
 
+@media screen and (max-width: 768px){
+  .navbar-brand {
+    height: 71px;
+    margin-left: -8%;
+  }
+  .fixed-top {
+    top: -1%;
+}}
+  
+
 .navbar-brand img {
   max-width:100%;
   height: auto;
