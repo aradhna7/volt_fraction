@@ -1095,7 +1095,686 @@ nav li a {
 
 
 /* ----------Header Ends Here ---------- */
+#team{
+  margin-top: .25rem!important;
+  
+  width:100%;
+  background-size:cover;
+  margin-top: .25rem!important;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
 
+.box {
+  padding: 23px 45px;
+}
+
+
+
+#team h2{
+  padding: 40px;
+  font-size: 50px;
+  font-weight: 1800;
+}
+
+#team h1{
+  font-size: 40px;
+  font-weight: 700;
+  padding:5px 0 20px 0;
+}
+
+#team h3{
+  padding:10px 0 20px 0;
+  font-size:48px;
+  font-family: "Abel-Regular";
+  font-weight:800;
+}
+  
+/* #team span{
+  color:red;
+} */
+
+#team h4{
+  padding:40px;
+  font-size:20px;
+  line-height:30px;
+}
+
+#team p{
+  font-size:27px;
+  line-height:30px;
+  padding-bottom: 10px;
+}
+
+#team button{
+  font-size:25px;
+  color: white;
+  background-color: #2b3595;
+  box-shadow: cornflowerblue;
+
+} 
+
+#team button:hover{
+  color: white;
+  background-color: black;
+  box-shadow: cornflowerblue;
+  border-color: #490d49;
+  
+} 
+
+
+#team .card-body{
+  word-wrap: break-word;
+  position: absolute;
+  background-color: transparent;
+  padding: 16%;
+  color: white;
+} 
+
+
+/* Prevent image stretching is it's resized */
+#team .card-img-top {
+  opacity: 0.6;
+  object-fit: cover;
+}
+
+/* Make all cards in row the same height */
+ #team .row {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+#team .row > div[class*='col-'] {
+display: flex;
+}
+
+/* Hover effects */
+#team .card {
+  max-width: 100%;
+background-color: #490d49;
+transition: -webkit-transform 0.3s ease;
+}
+#team .card:hover {
+transform: scale(1.01, 1.01);
+}
+
+/* Responsive design for image heights */
+@media (max-width: 664px) { 
+  #team .card-img-top {
+    height: 95vw;
+  }
+}
+
+@media (min-width: 576px) { 
+#team .card-img-top {
+  height: 70vw;
+}
+}
+
+@media (min-width: 931px) { 
+#team .card-img-top {
+  height: 45vw;
+}
+}
+
+@media (min-width: 1070px) { 
+#team .card-img-top {
+  height: 47vw;
+}
+}
+
+@media (min-width: 1330px) { 
+#team .card-img-top {
+  height: 37vw;
+}
+}
+
+@media (max-width: 450px) { 
+#team .card-img-top {
+  height: 135vw;
+}
+#team .card-body{
+  padding-top: 25%;
+} 
+#team h1{
+  font-size: 33px;
+}}
+
+@media (max-width: 360px) { 
+  #team .card-img-top {
+    height: 135vw;
+  }
+  #team .card-body{
+    padding: 3%;
+    padding-top: 4%;
+  } 
+  #team h1{
+    font-size: 25px;
+  }
+  
+
+
+
+} 
+
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* CSS Animations (extracted from http://glifo.uiparade.com/) */
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }	100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+  60% {
+    -webkit-transform: translateX(20px);
+  }
+
+  80% {
+    -webkit-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-2000px);
+  }
+
+  60% {
+    -moz-transform: translateX(20px);
+  }
+
+  80% {
+    -moz-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -o-transform: translateX(20px);
+  }
+
+  80% {
+    -o-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    transform: translateX(20px);
+  }
+
+  80% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+
+  60% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(2000px);
+  }
+
+  60% {
+    -moz-transform: translateX(-20px);
+  }
+
+  80% {
+    -moz-transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(2000px);
+  }
+
+  60% {
+    -o-transform: translateX(-20px);
+  }
+
+  80% {
+    -o-transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+
+  60% {
+    transform: translateX(-20px);
+  }
+
+  80% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }	100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(.3);
+  }
+
+  50% {
+    -moz-transform: scale(1.05);
+  }
+
+  70% {
+    -moz-transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: scale(1);
+  }
+}
+
+@-o-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -o-transform: scale(.3);
+  }
+
+  50% {
+    -o-transform: scale(1.05);
+  }
+
+  70% {
+    -o-transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes moveUp {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(40px);
+  }	100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes moveUp {
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes moveUp {
+  0% {
+    opacity: 1;
+    -o-transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeBgColor {
+  0%{
+    background:none;
+  }
+  70%{
+    background:none;
+  }
+  100%{
+    background:#464646;
+  }
+}
+@-o-keyframes fadeBgColor {
+  0%{
+    background:none;
+  }
+  70%{
+    background:none;
+  }
+  100%{
+    background:#464646;
+  }
+}
+@keyframes fadeBgColor {
+  0%{
+    background:none;
+  }
+  70%{
+    background:none;
+  }
+  100%{
+    background:#464646;
+  }
+}
+
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated.bounceInRight {
+	-webkit-animation-name: bounceInRight;
+	-moz-animation-name: bounceInRight;
+	-o-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
+.animated.bounceInLeft {
+	-webkit-animation-name: bounceInLeft;
+	-moz-animation-name: bounceInLeft;
+	-o-animation-name: bounceInLeft;
+	animation-name: bounceInLeft;
+}
+
+
+
+/* tournament info end */
 
 
 /* games section */
@@ -1296,6 +1975,10 @@ background-size:cover;
 padding:160px 0;
 }
 
+.connect span{
+  color: #cfd5f7;
+}
+
 
 .heading{
 margin:0 auto;
@@ -1331,12 +2014,13 @@ color:#cfd5f7;
 
 .links button{
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(102, 15, 184);
     box-shadow: cornflowerblue;
     border-color: white;
 }
 
 .links button:hover{
+  font-weight: 300;
     color: blueviolet;
     background-color: white;
     box-shadow: cornflowerblue;
