@@ -1141,13 +1141,13 @@ nav li a {
 }
 
 #team p{
-  font-size:27px;
+  font-size:24px;
   line-height:30px;
   padding-bottom: 10px;
 }
 
 #team button{
-  font-size:25px;
+  font-size:20px;
   color: white;
   background-color: #2b3595;
   box-shadow: cornflowerblue;
@@ -1207,7 +1207,7 @@ transform: scale(1.01, 1.01);
 
 @media (min-width: 576px) { 
 #team .card-img-top {
-  height: 70vw;
+  height: 65vw;
 }
 }
 
@@ -1229,18 +1229,41 @@ transform: scale(1.01, 1.01);
 }
 }
 
+@media (max-width: 630px) { 
+  #team .card-img-top {
+    height: 85vw;
+  }
+  #team .card-body{
+    padding: 3%;
+    padding-top: 20%;
+  } 
+  #team p{
+    font-size:21px;
+    line-height:30px;
+    padding-bottom: 10px;
+  }
+  #team h1{
+    font-size: 37px;
+  }}
+
 @media (max-width: 450px) { 
 #team .card-img-top {
-  height: 135vw;
+  height: 125vw;
 }
 #team .card-body{
-  padding-top: 25%;
+  padding: 3%;
+  padding-top: 20%;
 } 
+#team p{
+  font-size:21px;
+  line-height:30px;
+  padding-bottom: 10px;
+}
 #team h1{
   font-size: 33px;
 }}
 
-@media (max-width: 360px) { 
+@media (max-width: 350px) { 
   #team .card-img-top {
     height: 135vw;
   }
@@ -1248,6 +1271,12 @@ transform: scale(1.01, 1.01);
     padding: 3%;
     padding-top: 4%;
   } 
+
+  #team p{
+    font-size:21px;
+    line-height:30px;
+    padding-bottom: 10px;
+  }
   #team h1{
     font-size: 25px;
   }
