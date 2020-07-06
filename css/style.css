@@ -943,6 +943,34 @@ nav li a {
     text-shadow: 0 1px 2px rgba(0,0,0,.6); */
 }
 
+#carouselExampleIndicators div.coming{
+  font-size: 40px;
+  padding-left: 0%;
+  align-items: center;
+  display:block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background-color: transparent; 
+  padding:1px;
+  margin:1px;
+}
+
+
+@media (max-width: 768px){
+  #carouselExampleIndicators div.coming{
+    font-size: 30px;
+    
+    align-items: center;
+    display:block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    background-color: transparent; 
+    padding:1px;
+    margin:1px;
+  }
+}
+
+
 @media screen and (max-width: 360px){
 #carouselExampleIndicators .carousel-content {
     top: 6%;
@@ -1097,7 +1125,7 @@ nav li a {
 .glitch, .glow {
   color: #dfbfbf;
   position: relative;
-  font-size: 9vw;
+  
   animation: glitch 5s 5s infinite;
 }
 
