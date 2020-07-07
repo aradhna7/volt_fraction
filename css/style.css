@@ -1415,26 +1415,26 @@ nav li a {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .club .card {
    
     width: 100%;
   }
-}
+} */
 
   .club .card {
-    max-width: 450px;
+    max-width: 470px;
     margin-bottom: 30px;
   }
  
-@media (max-width: 980px) {
+@media (max-width: 990px) {
   .club .card {
     max-width: 490px;
     margin:10px 10px;
   }
  
 }
-@media (min-width: 756px) {
+@media (min-width: 777px) {
   .club .card {
     max-width: 226px;
     margin-right: 10px;
