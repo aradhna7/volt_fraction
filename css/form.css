@@ -91,6 +91,11 @@ input {
 	border: none;
 }
 
+select {
+	outline: none;
+	border: none;
+}
+
 textarea {
   outline: none;
   border: none;
@@ -141,9 +146,9 @@ iframe {
 /*==================================================================
 [ Text ]*/
 .txt1 {
-  font-family: Poppins-Regular;
-  font-size: 18px;
-  line-height: 1.2;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 1.3;
   color: #fff;
 }
 
@@ -164,7 +169,7 @@ iframe {
 /*==================================================================
 [ Size ]*/
 .size1 {
-  width: 355px;
+  width: 438px;
   max-width: 100%;
 }
 
@@ -188,7 +193,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;
+  background-color: black;
   
 }
 
@@ -217,6 +222,7 @@ iframe {
   position: relative;
   z-index: 1;
   padding: 30px 15px 0px 15px;
+ 
 }
 
 .contact100-more::before {
@@ -228,7 +234,12 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.8);
+  
+  /* background: rgba(0,0,0,0.8); */
+}
+
+.contact100-more .background-image{
+  opacity: 0.3;
 }
 
 
@@ -315,6 +326,15 @@ iframe {
 input.input100 {
   height: 55px;
 }
+
+select.input100 {
+  height: 55px;
+}
+
+option.input100 {
+  height: 55px;
+}
+
 
 
 textarea.input100 {
