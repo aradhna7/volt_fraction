@@ -1405,7 +1405,7 @@ nav li a {
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 30px;
-  background: rgb(38, 38, 138);
+  background: #182952;
   color: #FFE2FF;
   text-decoration: none;
   -moz-box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px 0;
@@ -1491,7 +1491,7 @@ nav li a {
   background-color: rgba(255, 255, 255, 0);
 }
 .club .card .card-title {
-  background: rgb(38, 38, 138);
+  background: #182952;
   padding: 3.5% 0 2.5% 0;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -1529,7 +1529,7 @@ nav li a {
   transition-timing-function: ease-in-out;
 }
 .club .card:hover, .club .card:focus {
-  background: rgb(38, 38, 138);
+  background: #182952;
   -moz-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
