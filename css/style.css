@@ -1088,7 +1088,7 @@ nav li a {
   font-weight: 600;
     font-size: 25px;
     color: white;
-    background-color: #c0046c;
+    background-color: rgb(38, 38, 138);
     box-shadow: cornflowerblue;
 
 } 
@@ -1100,7 +1100,7 @@ nav li a {
 
 #carouselExampleIndicators .banner-content button:hover{
     color: white;
-    background-color: black;
+    background-color: rgb(30, 98, 223);
     
 } 
 
@@ -1491,7 +1491,7 @@ nav li a {
   background-color: rgba(255, 255, 255, 0);
 }
 .club .card .card-title {
-  background: #7045af;
+  background: #182952;
   padding: 3.5% 0 2.5% 0;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -1535,7 +1535,7 @@ nav li a {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
 }
 .club .card:hover .card-title, .club .card:focus .card-title {
-  background: #2b3595;
+  background: #207dff;
 }
 .club .card:hover .card-meta, .club .card:focus .card-meta {
   max-height: 1em;
@@ -2286,6 +2286,7 @@ transform: scale(1.01, 1.01);
 }
 
 #games h2{
+  color: #f9fd50;
     padding: 20px;
     font-size: 50px;
     font-weight: 1800;
@@ -2467,6 +2468,7 @@ background:url("https://thumbs.gfycat.com/DeadEnormousBongo-size_restricted.gif"
 
 width:100%;
 background-size:cover;
+color: white;
 }
 
 .all-require{
@@ -2487,23 +2489,22 @@ padding:160px 40px;
 .heading{
 margin:0 auto;
 padding-bottom:30px;
-color:#fff;
+color:white;
 }
 
 .heading h3{
 padding:25px 0;
 font-size:38px;
 font-weight:800;
-color:#f7de29;
+color:#f9fd50;
 }
 
 .heading span{
-color:#cfd5f7;
+color:white;
 }
 
 .connect-content p{
     padding-bottom: 2%;
-   color:#cfd5f7;
    font-size:28px;
 }
 
@@ -2523,18 +2524,19 @@ color:#cfd5f7;
 
 
 .links button{
+  font-weight: 600;
     color: white;
-    background-color: rgb(102, 15, 184);
-    box-shadow: cornflowerblue;
-    border-color: white;
+    background-color: rgb(38, 38, 138);
+    box-shadow: white;
+    border-color: rgb(38, 38, 138);
 }
 
 .links button:hover{
-  font-weight: 300;
-    color: blueviolet;
-    background-color: white;
+  font-weight: 600;
+    color:white;
+    background-color: rgb(51, 112, 224);
     box-shadow: cornflowerblue;
-    border-color: blueviolet;
+    border-color: black;
 }
 
 
@@ -2594,13 +2596,13 @@ color:rgba(239, 239, 243, 0.83);
   margin-top: .25rem!important;
 background-image:url('images/1.png');
 margin-bottom: .25rem!important;
-color: #7045af;
+color: #f9fd50;
 width:100%;
 background-size:cover;
 }
 
 .mentorship .all-require{
-padding:160px 40px;
+padding:180px 40px;
 }
 
 .mentorship .heading{
@@ -2609,9 +2611,9 @@ padding:160px 40px;
   color:#fff;
   }
   
-@media (max-width: 450px) { 
+@media (max-width: 500px) { 
   .mentorship .all-require{
-    padding:80px 20px;
+    padding:100px 20px;
     }
 }
   
@@ -2619,7 +2621,7 @@ padding:160px 40px;
   padding:25px 0;
   font-size:38px;
   font-weight:800;
-  color:#efb1ff;
+  color:#15f4ee;
   }
   
   .mentorship .heading span{
@@ -2628,7 +2630,7 @@ padding:160px 40px;
   
   .mentorship .connect-content p{
       padding-bottom: 2%;
-     color:#cfd5f7;
+     color:white;
      font-size:28px;
   }
   
