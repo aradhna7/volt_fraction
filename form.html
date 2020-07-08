@@ -86,7 +86,7 @@
 			</div>
 
 
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="POST" onsubmit="myFunction()">
 				<span class="contact100-form-title">
 					Fill the form given below and you’ll be contacted by our team soon after!
 				</span>
@@ -123,6 +123,56 @@
 					<!-- <span class="focus-input100"></span> -->
 				</div>
 
+				<label class="label-input100" for="institution">Name of School/College</label>
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="institution" placeholder="Name of School/College">
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<label class="label-input100" for="state">State *</label>
+				<div class="wrap-input100">
+					<select id="state" class="input100" type="dropdown" name="state" >
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+						<option value="Daman and Diu">Daman and Diu</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Puducherry">Puducherry</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Odisha">Odisha</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Telangana">Telangana</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="West Bengal">West Bengal</option>
+					</select>
+					<!-- <span class="focus-input100"></span> -->
+				</div>
+
 				<!-- <label class="label-input100" for="message">Message *</label>
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
 					<textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
@@ -130,7 +180,7 @@
 				</div> -->
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
+					<button type="submit" class="contact100-form-btn" >
 						Submit
 					</button>
 				</div>
@@ -154,6 +204,11 @@
 <!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 	<script>
+
+		function myFunction() {
+		alert("Your details are submitted. You will be contacted shortly.");
+		}
+
 		$(".selection-2").select2({
 			minimumResultsForSearch: 20,
 			dropdownParent: $('#dropDownSelect1')
