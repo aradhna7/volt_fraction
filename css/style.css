@@ -74,7 +74,7 @@ font-family: "Abel-Regular";
 
 
 #home{
-  font-family: "Abel-Regular";
+  font-family: 'Merienda', cursive;
     background-color: black;
     color: white;
 }
@@ -114,7 +114,7 @@ font-family: "Abel-Regular";
 
 
 .navbar{
-  font-family: "Abel-Regular";
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   overflow: hidden;
   border-radius: 0px;
     background-color: black;
@@ -146,7 +146,7 @@ nav ul {
 }
 nav li a {
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-size: 16px;
+    font-size: 10px;
     text-decoration: none;
     
     
@@ -320,7 +320,7 @@ nav li a {
 .navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link:focus {
   color: white;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -971,7 +971,7 @@ nav li a {
 }
 
 #carouselExampleIndicators div.coming{
-  font-size: 40px;
+  font-size: 33px;
   padding-left: 0%;
   align-items: center;
   display:block;
@@ -985,7 +985,7 @@ nav li a {
 
 @media (max-width: 768px){
   #carouselExampleIndicators div.coming{
-    font-size: 30px;
+    font-size: 20px;
     
     align-items: center;
     display:block;
@@ -1022,17 +1022,17 @@ nav li a {
 }
 
 #carouselExampleIndicators .banner-content h1{
-    font-size:50px;
+    font-size:43px;
     font-weight: 600;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #carouselExampleIndicators .banner-content h1{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size:40px;
+    font-size:33px;
     font-weight: 600;
 }
 }
@@ -1044,7 +1044,7 @@ nav li a {
     padding-top: 10px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #carouselExampleIndicators .banner-content h2{
     font-size:20px;
     font-weight: 600;
@@ -1056,28 +1056,31 @@ nav li a {
 
 
 #carouselExampleIndicators .banner-content h3{
-    font-size:30px;
+  /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-size:20px;
     color: #15f4ee;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #carouselExampleIndicators .banner-content h3{
-    font-size:20px;
+    font-size:16px;
     font-weight: 600;
 }
 }
 
 #carouselExampleIndicators .banner-content p{
-    font-size:23px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:22px;
     padding-top:10px;
     line-height:25px;
     padding-bottom:25px;
 } 
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #carouselExampleIndicators .banner-content p{
-    font-size:19px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:18px;
     font-weight: 400;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -1086,13 +1089,13 @@ nav li a {
 
 #carouselExampleIndicators .banner-content button{
   font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     background-color: rgb(38, 38, 138);
     box-shadow: cornflowerblue;
 
 } 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #carouselExampleIndicators .banner-content button{
     font-size: 17px;
 }
@@ -1378,6 +1381,7 @@ nav li a {
 
 /* club section starts */
 .club{
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: .25rem!important;
   /* margin-bottom: .25rem!important; */
   padding: 40px 0;
@@ -2280,16 +2284,17 @@ transform: scale(1.01, 1.01);
   margin-top: .25rem!important;
   margin-bottom: .25rem!important;
     background-color: black;
-    padding:80px 0;
+    padding:60px 0;
     /* font-family: "Abel-Regular"; */
     color: white;
 }
 
 #games h2{
+  font-family: 'Merienda', cursive;
   color: #f9fd50;
     padding: 20px;
-    font-size: 50px;
-    font-weight: 1800;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 #games h1{
@@ -2480,6 +2485,11 @@ padding:160px 40px;
 }
 
 @media (max-width: 400px) { 
+  .all-require{
+    padding:190px 20px;
+  }
+
+
   .connect-content p{
    font-size:22px;
 }
@@ -2487,12 +2497,14 @@ padding:160px 40px;
 
 
 .heading{
+ 
 margin:0 auto;
 padding-bottom:30px;
 color:white;
 }
 
 .heading h3{
+  font-family: 'Merienda', cursive;
 padding:25px 0;
 font-size:38px;
 font-weight:800;
@@ -2504,27 +2516,33 @@ color:white;
 }
 
 .connect-content p{
-    padding-bottom: 2%;
-   font-size:28px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-bottom: 4%;
+   font-size:22px;
 }
 
 @media (max-width: 400px) { 
   .connect-content p{
-   font-size:22px;
+    padding-bottom: 4%;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size:18px;
 }
 }
 
 .links{
     align-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+
     
     
 }
 
 
 .links button{
-  font-weight: 600;
+  font-size: 20px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
     color: white;
     background-color: rgb(38, 38, 138);
     box-shadow: white;
@@ -2532,7 +2550,7 @@ color:white;
 }
 
 .links button:hover{
-  font-weight: 600;
+  font-weight: 500;
     color:white;
     background-color: rgb(51, 112, 224);
     box-shadow: cornflowerblue;
@@ -2602,7 +2620,7 @@ background-size:cover;
 }
 
 .mentorship .all-require{
-padding:180px 40px;
+padding:200px 40px;
 }
 
 .mentorship .heading{
@@ -2613,15 +2631,25 @@ padding:180px 40px;
   
 @media (max-width: 500px) { 
   .mentorship .all-require{
-    padding:100px 20px;
+    padding:30px 20px;
     }
 }
   
 .mentorship .heading h3{
   padding:25px 0;
-  font-size:38px;
-  font-weight:800;
+  font-size:40px;
+  font-weight:400;
   color:#15f4ee;
+  }
+
+@media (max-width: 500px) { 
+  .mentorship .heading h3{
+    padding-top: 14%;
+
+    font-size:30px;
+    font-weight:400;
+    color:#15f4ee;
+    }
   }
   
   .mentorship .heading span{
@@ -2629,14 +2657,25 @@ padding:180px 40px;
   }
   
   .mentorship .connect-content p{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
       padding-bottom: 2%;
      color:white;
-     font-size:28px;
+     font-size:24px;
   }
+
+ 
   
-  @media (max-width: 400px) { 
+  @media (max-width: 500px) { 
     .mentorship .connect-content p{
-     font-size:22px;
+      padding-bottom: 18%;
+     font-size:20px;
+  }
+  }
+
+  @media (max-width: 390px) { 
+    .mentorship .connect-content p{
+      padding-bottom: 14%;
+     font-size:17px;
   }
   }
 
