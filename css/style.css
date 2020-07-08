@@ -2540,13 +2540,20 @@ color:white;
 
 
 .links button{
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
     color: white;
     background-color: rgb(38, 38, 138);
     box-shadow: white;
     border-color: rgb(38, 38, 138);
+}
+
+@media (max-width: 400px) { 
+  .links button{
+    font-size: 17px;
+
+  }
 }
 
 .links button:hover{
@@ -2631,7 +2638,7 @@ padding:200px 40px;
   
 @media (max-width: 500px) { 
   .mentorship .all-require{
-    padding:30px 20px;
+    padding:83px 20px;
     }
 }
   
