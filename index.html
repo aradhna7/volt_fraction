@@ -45,7 +45,7 @@
 		
 })
 	</script>
-<script type="type/javascript" src="js/game.js"></script>
+
 <!-- //End-Smooth-Scrolling -->
 
 <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
@@ -262,6 +262,46 @@
 </div>
 
 <!-- club section ends -->
+
+
+
+<div class="team" style="background-image: url('');" id="team"> 
+	
+	<div class="container">
+		<div class="all-require">
+		
+				<div class="heading">
+					<h3>VOLT FRACTION OFFICIAL GAMING TEAMS</h3>
+				</div>
+				<div class="connect-content">
+					<p>Our scouts will be spectating everymatch conducted by the company and talented players will be picked up to represent  our teams at national and international level! 
+					</p>
+					<!-- <p style="font-size: 22px;">(Free Beta Access to the Mentorship Programme, Monthly Giveaways, Tournament Discounts, Rewards and much more for active members)</p> -->
+					<!-- <p>Join the VoltFraction Gaming Community on Discord and Telegram. 3 lucky people from the community will win a next season Royal Pass in PUBG Mobile every new season!</p> -->
+				</div>
+
+				<!-- <div class="links col-12">
+					<a href="https://discord.com/">
+						<button class="btn btn-primary btn-lg" type="submit">DISCORD <i class="fa fa-discord"></i></button>
+					</a>
+					 
+				</div> -->
+				<div class="links col-12">
+					 <a >
+						<button class="btn btn-primary btn-lg" type="submit" >Register <i class="fa fa-lock"></i></button>
+					 </a>
+					 
+				</div>
+		
+				
+				<div class="clearfix"> </div>
+				<!-- Specification Ends here   -->
+		</div>
+	</div>
+</div> 
+
+
+
 		
 
  <!-- connect Starts   -->
@@ -358,7 +398,7 @@
 
 
 <!-- team section ends	 -->
-<div class="mentorship" style="background-image: url('images/100.png');" id="connect"> 
+<div class="mentorship" style="background-image: url('');" id="connect"> 
 	
 	<div class="container">
 		<div class="all-require">
@@ -392,6 +432,24 @@
 		</div>
 	</div>
 </div> 
+
+<div class="notification">
+
+	<canvas id='beerCanvas'></canvas>
+	<div class="coming_content">
+	  <h1>VoltFraction Official Team Notification</h1>
+	  <div class="separator_container">
+		<div class="separator line_separator">
+			<span><i class="fa fa-2x fa-gamepad"></i></span>
+		  <!-- <span>
+			<svg xmlns="http://www.w3.org/2000/svg" width="320.864" height="320.864" viewBox="0 0 320.864 320.864"><path fill="#fff" d="M184.04 81.83c-1.89-5.1-3.46-28.63-3.926-55.05-.003-.1.107-.37.514-.37 2.092-.125 3.248-1.79 3.248-3.91V4c0-2.2-1.8-4-4-4H140.99c-2.2 0-4 1.8-4 4v18.5c0 2.123 1.06 3.77 3.152 3.89.673 0 .613.478.61.673-.463 26.677-2.035 49.67-3.925 54.77-11.12 29.993-35.884 27.39-35.884 63.393V273.96c0 49.536 24.92 47.044 59.49 46.82 34.57.224 59.49 2.716 59.49-46.82V145.226c0-36.002-24.764-33.4-35.883-63.394zm12.89 127.953c-5.845 8.89-31.005 30.02-36.458 30.02-5.338 0-30.727-21.21-36.532-30.02-2.907-4.41-4.97-9.277-4.627-15.678.605-11.325 9.866-20.678 21.208-20.678 11.66 0 18.45 12.44 19.915 12.44 1.675 0 8.755-12.44 19.914-12.44 11.34 0 20.6 9.353 21.206 20.678.342 6.4-1.713 11.247-4.627 15.678z"/></svg>
+		  </span> -->
+		</div>
+	  </div>
+	  <h3>COMING SOON</h3>
+	</div>
+
+</div>
 
 
 
@@ -731,6 +789,7 @@
 </div>
 <!-- JS, Popper.js, and jQuery -->
 <script src="js/animated-hero.js"></script>
+<script src="js/games.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -739,9 +798,48 @@
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
-t>
+
 <script src="js/util.js"></script>
 <script src="js/main.js"></script>
+<script>
+	    var canvas = document.getElementById('beerCanvas');
+		var ctx = canvas.getContext('2d');
+		var particles = [];
+		var particleCount = 280;
+
+		for (var i = 0; i < particleCount; i++) {
+		particles.push(new particle());
+		}
+
+		function particle() {
+		this.x = Math.random() * canvas.width;
+		this.y = canvas.height + Math.random() * 300;
+		this.speed = 1 + Math.random();
+		this.radius = Math.random() * 3;
+		this.opacity = (Math.random() * 100) / 1000;
+		}
+
+		function loop() {
+		requestAnimationFrame(loop);
+		draw();
+		}
+
+		function draw() {
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		ctx.globalCompositeOperation = 'lighter';
+		for (var i = 0; i < particles.length; i++) {
+			var p = particles[i];
+			ctx.beginPath();
+			ctx.fillStyle = 'rgba(255,255,255,' + p.opacity + ')';
+			ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2, false);
+			ctx.fill();
+			p.y -= p.speed;
+			if (p.y <= -10)
+			particles[i] = new particle();
+		}
+		}
+		loop();
+</script>
 <script>
 
 // var options = {"particles":{"number":{"value":99,"density":{"enable":true,"value_area":552.4033491425909}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":70,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":2,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1.5782952832645452,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false};

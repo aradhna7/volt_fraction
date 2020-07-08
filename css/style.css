@@ -63,6 +63,8 @@ src:url(../fonts/BlackOpsOne-Regular.ttf);
   src:url(../fonts/SnesItalic-vmAPZ.ttf);
 } 
 
+
+
 body{
   background-color: #252525;
 padding: 0%;
@@ -1588,180 +1590,9 @@ nav li a {
 
 
 
-#team h2{
-  padding: 40px;
-  font-size: 50px;
-  font-weight: 1800;
-}
-
-#team h1{
-  font-size: 40px;
-  font-weight: 700;
-  padding:5px 0 20px 0;
-}
-
-#team h3{
-  padding:10px 0 20px 0;
-  font-size:48px;
-  font-family: "Abel-Regular";
-  font-weight:800;
-}
-  
-/* #team span{
-  color:red;
-} */
-
-#team h4{
-  padding:40px;
-  font-size:20px;
-  line-height:30px;
-}
-
-#team p{
-  font-size:24px;
-  line-height:30px;
-  padding-bottom: 10px;
-}
-
-#team button{
-  font-size:20px;
-  color: white;
-  background-color: #2b3595;
-  box-shadow: cornflowerblue;
-
-} 
-
-#team button:hover{
-  color: white;
-  background-color: black;
-  box-shadow: cornflowerblue;
-  border-color: #490d49;
-  
-} 
-
-
-#team .card-body{
-  word-wrap: break-word;
-  position: absolute;
-  background-color: transparent;
-  padding: 16%;
-  color: white;
-} 
-
-
-/* Prevent image stretching is it's resized */
-#team .card-img-top {
-  opacity: 0.6;
-  object-fit: cover;
-}
-
-/* Make all cards in row the same height */
- #team .row {
- display: flex;
- flex-wrap: wrap;
-}
-
-#team .row > div[class*='col-'] {
-display: flex;
-}
-
-/* Hover effects */
-#team .card {
-  max-width: 100%;
-background-color: #490d49;
-transition: -webkit-transform 0.3s ease;
-}
-#team .card:hover {
-transform: scale(1.01, 1.01);
-}
-
-/* Responsive design for image heights */
-@media (max-width: 664px) { 
-  #team .card-img-top {
-    height: 95vw;
-  }
-}
-
-@media (min-width: 576px) { 
-#team .card-img-top {
-  height: 65vw;
-}
-}
-
-@media (min-width: 931px) { 
-#team .card-img-top {
-  height: 45vw;
-}
-}
-
-@media (min-width: 1070px) { 
-#team .card-img-top {
-  height: 47vw;
-}
-}
-
-@media (min-width: 1330px) { 
-#team .card-img-top {
-  height: 37vw;
-}
-}
-
-@media (max-width: 630px) { 
-  #team .card-img-top {
-    height: 85vw;
-  }
-  #team .card-body{
-    padding: 3%;
-    padding-top: 20%;
-  } 
-  #team p{
-    font-size:21px;
-    line-height:30px;
-    padding-bottom: 10px;
-  }
-  #team h1{
-    font-size: 37px;
-  }}
-
-@media (max-width: 450px) { 
-#team .card-img-top {
-  height: 125vw;
-}
-#team .card-body{
-  padding: 3%;
-  padding-top: 20%;
-} 
-#team p{
-  font-size:21px;
-  line-height:30px;
-  padding-bottom: 10px;
-}
-#team h1{
-  font-size: 33px;
-}}
-
-@media (max-width: 350px) { 
-  #team .card-img-top {
-    height: 135vw;
-  }
-  #team .card-body{
-    padding: 3%;
-    padding-top: 4%;
-  } 
-
-  #team p{
-    font-size:21px;
-    line-height:30px;
-    padding-bottom: 10px;
-  }
-  #team h1{
-    font-size: 25px;
-  }
-  
 
 
 
-} 
 
 .animatable {
   
@@ -2622,8 +2453,9 @@ color:rgba(239, 239, 243, 0.83);
 
 
 .mentorship{
-  margin-top: .25rem!important;
-background-image:url('images/1.png');
+margin-top: .25rem!important;
+background-color: black;
+/* background-image:url('images/1.png'); */
 margin-bottom: .25rem!important;
 color: #f9fd50;
 width:100%;
@@ -2631,7 +2463,7 @@ background-size:cover;
 }
 
 .mentorship .all-require{
-padding:200px 40px;
+padding:120px 40px;
 }
 
 .mentorship .heading{
@@ -2642,7 +2474,7 @@ padding:200px 40px;
   
 @media (max-width: 500px) { 
   .mentorship .all-require{
-    padding:83px 20px;
+    padding:30px 20px;
     }
 }
   
@@ -2696,8 +2528,212 @@ padding:200px 40px;
 
 
 
-/* ---------------teams starts here------- */
+/* team starts */
+.team{
+  background-color: black;
+  margin-top: .25rem!important;
+background-image:url('images/1.png');
+margin-bottom: .25rem!important;
+color: #f9fd50;
+width:100%;
+background-size:cover;
+}
 
+.team .all-require{
+padding:60px 40px;
+}
+
+.team .heading{
+  margin:0 auto;
+  padding-bottom:30px;
+  color:#fff;
+  }
+  
+@media (max-width: 500px) { 
+  .team .all-require{
+    padding:20px 20px;
+    }
+}
+  
+.team .heading h3{
+  padding:25px 0;
+  font-size:40px;
+  font-weight:400;
+  color:#15f4ee;
+  }
+
+@media (max-width: 500px) { 
+  .team .heading h3{
+    
+
+    font-size:30px;
+    font-weight:400;
+    color:#15f4ee;
+    }
+  }
+  
+  .team .heading span{
+  color:#cfd5f7;
+  }
+  
+  .team .connect-content p{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+      padding-bottom: 2%;
+     color:white;
+     font-size:24px;
+  }
+
+ 
+  
+  @media (max-width: 500px) { 
+    .team .connect-content p{
+      padding-bottom: 18%;
+     font-size:20px;
+  }
+  }
+
+  @media (max-width: 390px) { 
+    .team .connect-content p{
+      padding-bottom: 14%;
+     font-size:17px;
+  }
+  }
+
+
+  .team .links{
+    align-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+    
+    
+}
+
+
+/* .team .links button{
+  font-size: 22px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+    color: white;
+    background-color: rgb(38, 38, 138);
+    box-shadow: white;
+    border-color: rgb(38, 38, 138);
+}
+
+@media (max-width: 400px) { 
+  .team .links button{
+    font-size: 17px;
+
+  }
+}
+
+.team .links button:hover{
+  font-weight: 500;
+    color:white;
+    background-color: rgb(51, 112, 224);
+    box-shadow: cornflowerblue;
+    border-color: black;
+} */
+
+
+
+/* notification section */
+
+.notification {
+  padding:230px 40px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #142346, black);
+}
+
+@media (max-width: 500px) { 
+  .notification{
+    padding:230px 0 ;
+    }
+}
+
+#beerCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.coming_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  z-index: 101;
+}
+.coming_content h1 {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  margin: 0;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+.coming_content .separator_container {
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 12px 0;
+}
+.coming_content .separator_container:before, .coming_content .separator_container:after {
+  display: table;
+  content: "";
+}
+.coming_content .separator_container:after {
+  clear: both;
+}
+.coming_content .separator {
+  color: white;
+  margin: 0 auto 1em;
+  width: 11em;
+}
+.coming_content .line_separator svg {
+  width: 40px;
+  height: 20px;
+}
+.coming_content .line_separator:before, .coming_content .line_separator:after {
+  display: block;
+  width: 35%;
+  content: " ";
+  margin-top: 18px;
+  border: 1px solid white;
+}
+.coming_content .line_separator:before {
+  float: left;
+}
+.coming_content .line_separator:after {
+  float: right;
+}
+.coming_content h3 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+.coming_content h3 a {
+  text-decoration: underline;
+}
+
+
+/* ---------------teams starts here------- */
+/* 
 .teams{
   margin-top: .25rem!important;
     background-color: black;
@@ -2764,37 +2800,37 @@ padding:200px 40px;
     background-color: transparent;
     padding: 4%;
     color: white;
-}
+} */
 
 
 /* Prevent image stretching is it's resized */
-#teams .card-img-top {
+/* #teams .card-img-top {
     opacity: 0.3;
     object-fit: cover;
-}
+} */
 
 /* Make all cards in row the same height */
-#teams .row {
+/* #teams .row {
    display: flex;
    flex-wrap: wrap;
-}
+} 
 
 #teams .row > div[class*='col-'] {
   display: flex;
-}
+}*/
 
 /* Hover effects */
-#teams .card {
+/* #teams .card {
     max-width: 100%;
   background-color: #490d49;
   transition: -webkit-transform 0.3s ease;
 }
 #teams .card:hover {
   transform: scale(1.01, 1.01);
-}
+} */
 
 /* Responsive design for image heights */
-@media (max-width: 664px) { 
+/* @media (max-width: 664px) { 
     #teams .card-img-top {
       height: 95vw;
     }
@@ -2828,7 +2864,7 @@ padding:200px 40px;
   #teams .card-img-top {
     height: 115vw;
   }
-}
+} */
 
 
 
