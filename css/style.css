@@ -1387,7 +1387,8 @@ nav li a {
   padding: 40px 0;
   background-color: black;
   /* max-width: 1100px; */
-	margin: 0 ;
+  margin: 0 ;
+  color: #FFE2FF;
 }
 
 .club .cards {
@@ -1478,6 +1479,8 @@ nav li a {
 .club .card  .card-summary {
   padding: 5% 5% 3% 5%;
 }
+
+
 .club .card .card-header {
   position: relative;
   height: 175px;
@@ -1539,6 +1542,7 @@ nav li a {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
 }
 .club .card:hover .card-title, .club .card:focus .card-title {
+  
   background: #207dff;
 }
 .club .card:hover .card-meta, .club .card:focus .card-meta {
