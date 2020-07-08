@@ -37,7 +37,11 @@
                 event.preventDefault();
                 $('html,body').animate({scrollTop:$(this.hash).offset().top},2000);
             });
-        });
+		});
+		jQuery(document).ready(function($){
+		$(".loader").delay(2000).fadeOut("slow");
+		$("#overlayer").delay(2000).fadeOut("slow");
+})
 	</script>
 <script type="type/javascript" src="js/game.js"></script>
 <!-- //End-Smooth-Scrolling -->
@@ -48,6 +52,10 @@
 </head>
 
 <body>
+	<div id="overlayer"></div>
+	<span class="loader">
+		<span class="loader-inner"></span>
+	  </span>
 <!-- 
 <div id="particle"></div>
 <div id="overlay"> -->
@@ -724,6 +732,7 @@
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
+t>
 <script src="js/util.js"></script>
 <script src="js/main.js"></script>
 <script>
@@ -860,12 +869,14 @@ particlesJS("particle", options);
 			}
 		
 			
-		
+			
 	
 			
 </script>
 
+
 <!-- games section -->
 
 </body>
+
 </html>
